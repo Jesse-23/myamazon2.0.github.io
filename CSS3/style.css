@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .cart a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Confimation section */
+.confirmation {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.confirmation h2 {
+    margin-bottom: 10px;
+}
+#confirmation-items {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.confirmation-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.order-summary {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: #febde9;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    cursor: pointer;
+}

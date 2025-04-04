@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon2.0</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Amazon</div>
+        <div class="search-bar">
+            <input type="text" class="search-bar" placeholder="Search for Products" id="searchInput">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+        <div class="cart">
+            <a href="checkout.html">Cart <span id="cart-count">0</span></a>
+        </div>
+    </header>
+
+    <!-- Category Menu -->
+    <nav class="categories">
+        <button onclick="filterProducts('all')">All</button>
+        <button onclick="filterProducts('electronics')">Electronics</button>
+        <button onclick="filterProducts('fashion')">Fashion</button>
+        <button onclick="filterProducts('home')">Home</button>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img src="./images/6106eiCSjCL._SX1500_.jpg" alt="Banner">
+    </section>
+
+    <!-- Product Grid -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <!-- Electronics -->
+            <div class="product">
+                <img src="./images/smartphone.jpg" alt="product 1">
+                <h3>Smartphone</h3>
+                <p>$699.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/headphones.jpg" alt="product 2">
+                <h3>Headphones</h3>
+                <p>$129.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/harddrive.jpg" alt="product 3">
+                <h3>Hard Drive</h3>
+                <p>$100.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Fashion -->
+            <div class="product">
+                <img src="./images/jackets.jpg" alt="produc 4">
+                <h3>Jacket</h3>
+                <p>$49.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/shoes.jpg" alt="product 5">
+                <h3>Shoes</h3>
+                <p>$89.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/tops.jpg" alt="product 6">
+                <h3>Tops</h3>
+                <p>$25.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/jewelry.jpg" alt="product 7">
+                <h3>Jewelry</h3>
+                <p>$179.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Home -->
+            <div class="product">
+                <img src="./images/coffeemaxhine.jpg" alt="product 8">
+                <h3>Coffee Machine</h3>
+                <p>$50.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/cleaningtools.jpg" alt="product 9">
+                <h3>Cleaning Tools</h3>
+                <p>$79.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/vacumcleaner.jpg" alt="product 10">
+                <h3>Vacum Cleaner</h3>
+                <p>$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
